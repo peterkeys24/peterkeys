@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(images/tesla\ interior.jpg);
+    background-size: cover;
+    background-position: center; */
+    background-attachment: absolute;
+    background-repeat: no-repeat;
+}
+.container {
+    background-color: transparent;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 5em;
+    background: transparent !important;
+}
+.nav-menu {
+        display: flex;
+        justify-content: space-between;
+}
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 1em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.cccc {
+    color: white;
+    font-size: 200%;
+}
+.logo {
+    width: 20%;
+}
+.icons {
+    width: 20%;
+}
+section {
+    text-align: center;
+    color: black;
+}
+button{
+    width: 200px;
+    padding: 10px 30px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.button1 {
+    background-color: white;
+    border-style: groove;
+}
+.button2 {
+    color: white;
+    background-color: black;
+    border-style: groove;
+}
+p{
+    color: white;
+}
+.p1 {
+    text-decoration: underline;
+
+}
+.p-index {
+    font-size: 20px;
+}
+@media (max-width: 768px)
+}

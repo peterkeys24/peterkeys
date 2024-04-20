@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: transparent;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 5em;
+    background: transparent !important;
+}
+#myvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.nav-menu {
+        display: flex;
+        justify-content: space-between;
+}
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 1em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.cccc {
+    color: white;
+    font-size: 200%;
+}
+.logo {
+    width: 20%;
+}
+.icons {
+    width: 20%;
+}
+section {
+    text-align: center;
+    color: black;
+}
+button{
+    width: 200px;
+    padding: 10px 30px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.button1 {
+    background-color: white;
+}
+.button2 {
+    color: white;
+    background-color: black;
+}
+p{
+    color: white;
+}
+.p1 {
+    text-decoration: underline;
+
+}
+.p-index {
+    font-size: 20px;
+}
+.section1 {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.small-container {
+    background-color: white;
+    height: 500px;
+}
+.small-container {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 5px; 
+}
+.content-container {
+    background-color: white;
+    border-style: groove;
+    border-color: black;
+    width: 200%;
+    height: 80%;
+    border-radius: 10px;
+}
+#myvid {
+    /* position: fixed; */
+    border-radius: 10px;
+    width: 200px;    
+}
+.images {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.img-content {
+    flex-wrap: nowrap;
+    width: 200px;
+    border-radius: 10px;
+    gap: 10px;
+    margin-bottom: auto;
+}
+.prep {
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.section1 button {
+    background-color: orange;
+}
+.section1 p {
+    color: black;
+}

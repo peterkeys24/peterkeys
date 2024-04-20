@@ -1,0 +1,27 @@
+body {
+    background-color: blue;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.countdown {
+    text-align: center;
+}
+#timer {
+    display: flex;
+    justify-content: center;
+}
+#timer div {
+    background-color: #333;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+h1 {
+    margin-bottom: 20px;
+}
